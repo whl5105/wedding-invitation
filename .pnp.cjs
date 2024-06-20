@@ -52,6 +52,7 @@ const RAW_RUNTIME_STATE =
           ["react-scripts", "virtual:c6a2c1057dda0d78642e254987946793fbfe9a0bef3689404455f2702e94d714c05865b1e986fd352b70b33b2158077556d9545aa4fee2a1a3d616c020c7aa5a#npm:5.0.1"],\
           ["sass", "npm:1.77.4"],\
           ["server", "npm:1.0.39"],\
+          ["swiper", "npm:10.3.1"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
           ["web-vitals", "npm:2.1.4"],\
           ["webpack-font-preload-plugin", "virtual:c6a2c1057dda0d78642e254987946793fbfe9a0bef3689404455f2702e94d714c05865b1e986fd352b70b33b2158077556d9545aa4fee2a1a3d616c020c7aa5a#npm:1.5.0"]\
@@ -18507,6 +18508,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["swiper", [\
+      ["npm:10.3.1", {\
+        "packageLocation": "../../.yarn/berry/cache/swiper-npm-10.3.1-76fd5fe27f-10c0.zip/node_modules/swiper/",\
+        "packageDependencies": [\
+          ["swiper", "npm:10.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["symbol-tree", [\
       ["npm:3.2.4", {\
         "packageLocation": "../../.yarn/berry/cache/symbol-tree-npm-3.2.4-fe70cdb75b-10c0.zip/node_modules/symbol-tree/",\
@@ -19801,6 +19811,7 @@ const RAW_RUNTIME_STATE =
           ["react-scripts", "virtual:c6a2c1057dda0d78642e254987946793fbfe9a0bef3689404455f2702e94d714c05865b1e986fd352b70b33b2158077556d9545aa4fee2a1a3d616c020c7aa5a#npm:5.0.1"],\
           ["sass", "npm:1.77.4"],\
           ["server", "npm:1.0.39"],\
+          ["swiper", "npm:10.3.1"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
           ["web-vitals", "npm:2.1.4"],\
           ["webpack-font-preload-plugin", "virtual:c6a2c1057dda0d78642e254987946793fbfe9a0bef3689404455f2702e94d714c05865b1e986fd352b70b33b2158077556d9545aa4fee2a1a3d616c020c7aa5a#npm:1.5.0"]\

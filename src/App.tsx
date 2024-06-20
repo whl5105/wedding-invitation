@@ -7,6 +7,7 @@ import FullScreenMessage from '@shared/FullScreenMessage'
 
 import Heading from '@components/sections/Heading'
 import Video from '@components/sections/Video'
+import ImageGallery from '@components/sections/ImageGallery'
 
 import type { Wedding } from '@models/wedding'
 
@@ -37,12 +38,13 @@ function App() {
   if (error) return <FullScreenMessage type="error" />
 
   if (wedding == null) return null
-  const { date } = wedding
+  const { date, galleryImages } = wedding
 
   return (
     <div className={cx('container')}>
       <Heading date={date} />
       <Video />
+      <ImageGallery images={galleryImages} />
       {JSON.stringify(wedding)}
     </div>
   )
